@@ -78,7 +78,7 @@ $signed = Signer::sign($script, $key, 'v2017');
 $signed = Signer::sign($script, $key, 'v2019');
 ```
 
-All non–`pre_2012` eras use the same `--rbxsig%...%` format; they’re provided as named options for clarity.
+All non-`pre_2012` eras use the same `--rbxsig%...%` format; they’re provided as named options for clarity.
 
 ## Example HTTP endpoint
 
@@ -121,7 +121,7 @@ try {
 
 ## References
 
-- Roblox Reverse Engineering – Client Security: Signatures  
+- Roblox Reverse Engineering - Client Security: Signatures  
   https://github.com/ROBLOX-Reverse-Engineering/RRE-Site/blob/master/docs/Client%20Security/Signatures.md
 
 ## License

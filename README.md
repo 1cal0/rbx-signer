@@ -126,4 +126,4 @@ try {
 
 ## License
 
-MIT
+Look at the [LICENSE.md](https://github.com/1cal0/rbx-signer/blob/main/LICENSE.md).

@@ -1,0 +1,15 @@
+{
+  "name": "0cal1/rbx-signer",
+  "description": "PHP library for signing Roblox Lua scripts (SHA1 + base64 + %...% format).",
+  "type": "library",
+  "license": "Apache-2.0",
+  "keywords": ["roblox", "signature", "sign", "rbx"],
+  "require": {
+    "php": ">=8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "RobloxSigner\\": "src/"
+    }
+  }
+}

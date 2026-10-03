@@ -33,6 +33,12 @@ In practice for Roblox scripts:
 - **Verify** = Roblox client/server using the matching public key
 
 ### Specification
+Roblox uses (and *used*) signatures for a multitude of things including but not limited to:
+    
+- [JoinScripts](/Client Security/JoinScripts)
+- Online CoreScripts (2010-2014)<sub><sup>[Citation needed]</sup></sub>
+- BuiltInPlugins[^3]
+
 Roblox uses the [RSA](https://en.wikipedia.org/wiki/RSA_(cryptosystem)) algorithm (1024-bits) with X509 and PKCS7 encoding.
 
 Signature wrappers have differed between the years but here are the primary forms:

@@ -32,6 +32,18 @@ In practice for Roblox scripts:
 - **Signed Data** = base64-encoded signature wrapped as `%...%` or `--rbxsig%...%`
 - **Verify** = Roblox client/server using the matching public key
 
+### Specification
+Roblox uses the [RSA](https://en.wikipedia.org/wiki/RSA_(cryptosystem)) algorithm (1024-bits) with X509 and PKCS7 encoding.
+
+Signature wrappers have differed between the years but here are the primary forms:
+
+- `%DATA%` (2010-2013)
+- `--rbxsig%DATA%` (2013-2020)
+- `--rbxsig2%DATA%` (Since 2018)
+- `--rbxsig4%DATA%` (Since 2020)
+
+(**DATA** refers to the actual signature)
+
 ## Requirements
 
 - PHP 8.0+

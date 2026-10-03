@@ -1,4 +1,4 @@
-# roblox-signer
+# rbx-signer
 
 Small PHP library for signing Roblox Lua scripts using the official format:
 
